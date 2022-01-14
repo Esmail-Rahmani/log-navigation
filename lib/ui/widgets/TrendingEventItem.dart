@@ -86,8 +86,7 @@ class TrendingEventItem extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(10, 10, 8, 1),
-              child: Expanded(
-                child: Column(
+              child:  Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
@@ -265,8 +264,8 @@ class TrendingEventItem extends StatelessWidget {
                     )
                   ],
                 ),
-              ),
-            )
+
+            ),
           ],
         ),
       ),
